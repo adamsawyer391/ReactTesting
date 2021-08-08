@@ -1,0 +1,8 @@
+
+.div-desktop-main{
+    display: flex;
+}
+.desktop-content-area-display{
+    padding: 15px;
+    width: 100%;
+}

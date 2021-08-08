@@ -1,0 +1,9 @@
+.question-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.question-row-sub{
+    display: flex;
+}

@@ -1,0 +1,32 @@
+.sidebar-container{
+    height: 100vh;
+    background-color: white;
+    padding-right: 5px;
+    border-right: 1px solid black;
+}
+.MuiButtonBase-root{
+    padding: 0px; 
+    margin: 0px;
+    height: 50px;
+    padding-left: 10px;
+}
+.MuiAccordionSummary-root{
+    padding: 0px; 
+    margin: 0px;
+    height: 50px;
+    padding-left: 10px;
+}
+.MuiAccordionSummary-content{
+    padding: 0px; 
+    margin: 0px;
+    margin-left: 10px;
+}
+.MuiAccordionDetails-root{
+    padding: 0px;
+    margin: 0px;
+}
+.MuiExpanded{
+    padding: 0px; 
+    margin: 0px;
+    height: 50px;
+}

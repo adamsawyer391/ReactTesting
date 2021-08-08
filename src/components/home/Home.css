@@ -1,4 +1,8 @@
 .home-main-container{
     margin-left: 15%;
     margin-right: 15%;
+    margin-top: 50px;
+}
+.hmc-center{
+    text-align: center;
 }

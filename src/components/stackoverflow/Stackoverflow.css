@@ -1,0 +1,20 @@
+.so-main-content-area{
+    display: flex;
+    width: 100%;
+}
+.sidebar-so{
+    position: static;
+    width: 20%;
+    display: flex;
+    border-right: 1px solid black;
+}
+.sidebar-so-l{
+    width: 50%;
+}
+.sidebar-so-r{
+    width: 50%;
+}
+.content-so{
+    width: 80%;
+    padding: 15px;
+}

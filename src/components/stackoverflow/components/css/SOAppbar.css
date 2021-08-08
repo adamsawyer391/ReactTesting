@@ -1,0 +1,29 @@
+
+.so-ul{
+    display: flex;
+    list-style-type: none;
+    color: black;
+}
+.so-li{
+    padding-right: 20px;
+}
+.searchbar-container{
+    display: flex;
+    border: 0.5px solid lightgray;
+    background-color: white;
+    padding: 5px;
+    border-radius: 3px;
+    width: 400px;
+    margin-left: 10px;
+}
+.so-search-icon{
+    width: 25px;
+    height: 25px;
+}
+.so-navbar-search{
+    border: none;
+}
+.so-logo-icon{
+    height: 30px;
+    width: 140px;
+}

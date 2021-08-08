@@ -1,0 +1,10 @@
+.so-sidebar-ul{
+    list-style-type: none;
+    font-variant: small-caps;
+    font-size: 16px;
+    color: rgb(165, 148, 148);
+    padding: 0;
+}
+.so-sidebar-li{
+    padding-bottom: 10px;
+}

@@ -1,30 +1,46 @@
 import React, { useState } from 'react'
 import Appbar from '@material-ui/core/AppBar'
 import './Navbar.css'
-import { makeStyles } from '@material-ui/core';
+import clsx from 'clsx';
+import { makeStyles, Toolbar, Typography } from '@material-ui/core';
 
 function Navbar() {
 
-    const [sidebar, setSidebar] = useState(false);
-    const showSidebar = () => setSidebar(!sidebar);
-
-    //appbar styles
     const useStyles = makeStyles(theme => ({
         root: {
-            backgroundColor: '#000'
+            display: 'flex',
+        },
+        appBar: {
+            backgroundColor: '#000',
+        },
+        toolBar: {
+            display: 'flex'
         }
     }));
 
     const classes = useStyles();
+    const url = "https://www.spinutech.com/webres/Image/web-design-development/articles/Web%20Dev-Blog.png";
+    const search_url = "https://cdn.iconscout.com/icon/premium/png-256-thumb/search-2758901-2290828.png";
 
     return (
 
-        <div>
-            <Appbar position="static" className={classes.root}>
-                <h1 className="navbar-title-text">
-                    React Examples App
-                </h1>
+        <div className={classes.root}>
+            <Appbar position="static" className={clsx(classes.appBar)}>
+                <Toolbar className={classes.toolBar}>
+                    {/* <IconButton color="inherit" aria-label="open drawer" onClick={handleDrawerOpen} edge="start" className={clsx(classes.menuButton, open && classes.hide)}>
+                        <MenuIcon />
+                    </IconButton> */}
+                    <img src={url} alt="" className="navbar-image" />
+                    <Typography variant="h5" noWrap>
+                        Programmer's Corner
+                    </Typography>
+                    <input className="navbar-search" placeholder="Search..." />
+                    <div className="search-icon-container">
+                        <img className="search-icon" src={search_url} alt="" />
+                    </div>
+                </Toolbar>
             </Appbar>
+            
         </div>
     )
 }
